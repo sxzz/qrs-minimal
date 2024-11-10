@@ -5,3 +5,5 @@ dist
 .nuxt
 .env
 .idea/
+build.tar.xz
+.DS_Store

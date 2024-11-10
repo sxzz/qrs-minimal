@@ -8,7 +8,7 @@
     "dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
     "dev": "nuxi dev",
     "stub": "pnpm -F './packages/*' run stub",
-    "generate": "nuxi generate",
+    "generate": "./build.sh",
     "prepare": "nuxi prepare",
     "start": "node .output/server/index.mjs",
     "start:generate": "npx serve .output/public",

@@ -25,6 +25,10 @@ export default defineNuxtConfig({
     '@unocss/reset/tailwind.css',
   ],
 
+  vite: {
+    build: { minify: 'terser' },
+  },
+
   devtools: {
     enabled: true,
   },
