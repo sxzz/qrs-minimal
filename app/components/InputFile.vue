@@ -15,8 +15,8 @@ function onFileChange(e: Event) {
 
 <template>
   <label
-    bg="neutral-100 hover:neutral-200 active:neutral-100 dark:neutral-800 dark:hover:neutral-900 dark:active:neutral-800"
-    text="hover:neutral-700 active:neutral-500 dark:hover:neutral-300 dark:active:neutral-400"
+    bg="neutral-100 hover:neutral-200 active:neutral-100"
+    text="hover:neutral-700 active:neutral-500"
     flex="~"
     transition="all ease-in-out"
     cursor-pointer items-center justify-center overflow-hidden rounded-lg duration-300
@@ -30,12 +30,7 @@ function onFileChange(e: Event) {
       flex="~ row"
       h-full w-full items-center justify-center
     >
-      <slot>
-        <div i-carbon:document-add text-lg />
-        <p font-semi-bold pl-2>
-          <span>Choose</span>
-        </p>
-      </slot>
+      <slot />
     </div>
   </label>
 </template>

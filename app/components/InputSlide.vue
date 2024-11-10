@@ -149,13 +149,6 @@ watch(max, (val) => {
   --qrs-slider-track-progress-padding: 0px;
 }
 
-.dark .qrs-slider {
-  --qrs-slider-shadow-color: #bebebe30;
-  --qrs-slider-thumb-color: #d2d2d2;
-  --qrs-slider-track-color: #343434;
-  --qrs-slider-track-progress-color: #868686;
-}
-
 .qrs-slider {
   height: var(--qrs-slider-height);
   cursor: col-resize;

@@ -18,10 +18,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "birpc": "^0.2.19",
     "js-base64": "^3.7.7",
-    "jsqr-es6": "1.4.0-1",
-    "qr-scanner": "^1.4.2",
     "uqr": "^0.1.2"
   },
   "devDependencies": {
@@ -30,8 +27,6 @@
     "@iconify-json/twemoji": "^1.2.0",
     "@nuxt/devtools": "^1.5.1",
     "@nuxt/eslint": "^0.5.7",
-    "@nuxtjs/color-mode": "^3.5.1",
-    "@pinia/nuxt": "^0.5.5",
     "@unocss/eslint-config": "^0.63.2",
     "@unocss/nuxt": "^0.63.2",
     "@vite-pwa/nuxt": "^0.10.5",
@@ -42,7 +37,6 @@
     "lz-string": "^1.5.0",
     "nuxt": "^3.13.2",
     "ohash": "^1.1.4",
-    "pinia": "^2.2.4",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2",
     "unbuild": "^2.0.0",
